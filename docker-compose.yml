@@ -10,6 +10,7 @@ services:
     container_name: redis
     ports:
       - "6379:6379"
+
   db:
     image: postgres:17-alpine
     environment:
